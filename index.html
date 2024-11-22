@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1>
+    </header>
+
+    <main>
+        <section id="bienvenida">
+            <!-- Sección para el mensaje inicial -->
+        </section>
+
+        <section id="formulario">
+            <h2>Ingresa tus datos</h2>
+            <form id="userForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" required>
+
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="resultado">
+            <!-- Sección para mostrar el mensaje del cálculo de días -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bienvenida Interactiva. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
